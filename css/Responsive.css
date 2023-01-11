@@ -1,0 +1,65 @@
+/* Para escritorios grandes
+---------------------------------------------- */
+@media (min-width: 1200px) {
+  .contact_form {
+    width: 55%;
+  }
+
+  #enviar {
+    width: 6%;
+    height: 4%;
+  }
+}
+/* Para escritorios normales
+---------------------------------------------- */
+@media (min-width: 1000px) {
+  .contact_form {
+    width: 80%;
+  }
+}
+
+/* Tables en horizontal y escritorios normales
+------------------------------------------------------------------------------ */
+
+@media (min-width: 768px) {
+  .contact_form {
+    width: 55%;
+  }
+  #enviar {
+    width: 30%;
+    height: 4%;
+  }
+}
+
+/*  Moviles en horizontal o tables en vertical
+------------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  .contact_form {
+    width: 80%;
+  }
+  #enviar {
+    width: 30%;
+    height: 4%;
+  }
+}
+
+/*  Moviles en vertical
+------------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .contact_form {
+    width: 90%;
+  }
+  #enviar {
+    width: 60%;
+    height: 4%;
+  }
+
+  .aviso{
+    font-size: 12px;
+  }
+
+  .contact_form h1{
+    font-size: 25px;
+
+  }
+}
